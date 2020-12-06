@@ -1,0 +1,21 @@
+A Comprehensive Guide To Jenkins Pipeline
+With big giants such as Expedia, Autodesk, UnitedHealth Group, Boeing etc. using Jenkins for the continuous delivery pipeline, you can interpret the demand for Continuous delivery & Jenkins skills. Have you ever wondered why Jenkins has gained so much popularity, especially over the recent years? One of the major factors that contribute to it’s popularity is the Jenkins pipeline and if you’re looking for a simple Jenkins pipeline tutorial, this blog is your go-to. Jenkins pipeline is a continuous delivery pipeline that executes the software workflow as code.
+Here’s a list of the topics covered in this article:
+What is a Jenkins pipeline?
+What is a Jenkinsfile?
+Pipeline concepts
+Creating your first Jenkins pipeline
+Declarative pipeline demo
+Scripted pipeline demo
+We’re all aware that Jenkins has proven to be an expert in implementing continuous integration, continuous testing and continuous deployment to produce good quality software. When it comes to continuous delivery, Jenkins uses a feature called Jenkins pipeline. In order to understand why Jenkins pipeline was introduced, we have to understand what continuous delivery is and why it is important.
+In simple words, continuous delivery is the capability to release a software at all times. It is a practice which ensures that the software is always in a production-ready state.
+What does this mean? It means that every time a change is made to the code or the infrastructure, the software team must work in such a way that these changes are built quickly and tested using various automation tools after which the build is subjected to production.
+By speeding up the delivery process, the development team will get more time to implement any required feedback. This process, of getting the software from the build to the production state at a faster rate is carried out by implementing continuous integration and continuous delivery.
+Continuous delivery ensures that the software is built, tested and released more frequently. It reduces the cost, time and risk of the incremental software releases. To carry out continuous delivery, Jenkins introduced a new feature called Jenkins pipeline. This article will help you understand the importance of a Jenkins pipeline.
+What is a Jenkins pipeline?
+A pipeline is a collection of jobs that brings the software from version control into the hands of the end users by using automation tools. It is a feature used to incorporate continuous delivery in our software development workflow.
+Over the years, there have been multiple Jenkins pipeline releases including, Jenkins Build flow, Jenkins Build Pipeline plugin, Jenkins Workflow, etc. What are the key features of these plugins?
+They represent multiple Jenkins jobs as one whole workflow in the form of a pipeline.
+What do these pipelines do? These pipelines are a collection of Jenkins jobs which trigger each other in a specified sequence.
+Let me explain this with an example. Suppose I’m developing a small application on Jenkins and I want to build, test and deploy it. To do this, I will allot 3 jobs to perform each process. So , job1 would be for build, job2 would perform tests and job3 for deployment. I can use the Jenkins build pipeline plugin to perform this task. After creating three jobs and chaining them in a sequence, the build plugin will run these jobs as a pipeline.
+This image shows a view of all the 3 jobs that run concurrently in the pipeline.
